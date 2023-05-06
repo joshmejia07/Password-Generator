@@ -3,6 +3,7 @@
  This is a solo project from the Scrimba frontend developer career path. 
 
 # Project Presentation 
+![alt text](https://github.com/joshmejia07/Password-Generator/blob/main/app-screenshot.png)
 
 # Live Link
 https://elaborate-begonia-6bcbe8.netlify.app/
