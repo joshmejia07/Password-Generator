@@ -1,0 +1,105 @@
+/* 
+Colors:
+#1F2937 - darkest blue
+#273549 - dark blue
+#10B981 - green
+#2F3E53 - light blue
+ */
+
+body {
+  margin: 0;
+  font-family: Karla;
+  background: #1f2937;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  text-align: start;
+  padding: 50px;
+}
+
+.heading-one {
+  color: white;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.heading-two {
+  color: #10b981;
+  margin-top: -25px;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+p {
+  color: lightgrey;
+  font-size: 20px;
+  margin-bottom: 55px;
+  margin-top: -10px;
+}
+
+.password-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-btn {
+  color: white;
+  background-color: #10b981;
+  width: 210px;
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.blue-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #10b981;
+  background-color: #273549;
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.line {
+  border-bottom: 2px solid #273549;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.alert {
+  color: #fff;
+  margin-top: 25px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media (min-width: 1080px) {
+  .container {
+    width: 70%;
+  }
+
+  .heading-one,
+  .heading-two {
+    font-size: 5rem;
+  }
+
+  .password-btn-container {
+    width: 450px;
+  }
+}
